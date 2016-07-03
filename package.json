@@ -1,0 +1,26 @@
+{
+  "name": "fcc-file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.1.0",
+    "pug": "^2.0.0-beta3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0bl3/fcc-file-metadata-microservice.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/N0bl3/fcc-file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/N0bl3/fcc-file-metadata-microservice#readme"
+}
