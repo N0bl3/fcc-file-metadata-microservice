@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 app.post('/analysis', upload.single('file'), (req, res) => {
   res.send(req.file.size.toString());
 });
-app.listen(process.env.port || 3000, (err) => {
+app.listen(process.env.PORT || 3000, (err) => {
   if (!err) {
     console.log(`Server started on port ${process.env.port || 3000}`);
   }
